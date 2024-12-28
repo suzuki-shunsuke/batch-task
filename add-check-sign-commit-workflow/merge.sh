@@ -12,6 +12,6 @@ if [ "$org" = suzuki-shunsuke ]; then
 fi
 
 multi-gitter merge \
-	-B ci-set-timeout-minutes-by-ghatm \
+	-B ci-add-workflow-check-commit-verified \
 	--skip-forks \
 	"$opt" "$org"
