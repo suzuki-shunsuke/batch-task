@@ -1,0 +1,39 @@
+{
+  "checksums": [
+    {
+      "id": "github_release/github.com/lindell/multi-gitter/v0.54.1/multi-gitter_0.54.1_Darwin_ARM64.tar.gz",
+      "checksum": "02E30998EFE457D4C38195593BC4B174330583125FDB123453850CCC975BBBBE",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/lindell/multi-gitter/v0.54.1/multi-gitter_0.54.1_Darwin_x86_64.tar.gz",
+      "checksum": "A10C9F12C9EAA788B03A5886775B5391DE9B56EEE87564EC3D1A7382EF4AFB7B",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/lindell/multi-gitter/v0.54.1/multi-gitter_0.54.1_Linux_ARM64.tar.gz",
+      "checksum": "499787A9AF97D91D8D9FA69A1014BCDE7FCC186D4A33559D43757070944ECAEA",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/lindell/multi-gitter/v0.54.1/multi-gitter_0.54.1_Linux_x86_64.tar.gz",
+      "checksum": "5EDE091330539C793096CF7AA2C911CB91418008BC9C8005EF477069C8697409",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/lindell/multi-gitter/v0.54.1/multi-gitter_0.54.1_Windows_ARM64.tar.gz",
+      "checksum": "25C318FA13055813338FCAD7E10BF96D4EF9F8BFC2B31D7F591390E79CA70CC7",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/lindell/multi-gitter/v0.54.1/multi-gitter_0.54.1_Windows_x86_64.tar.gz",
+      "checksum": "70B121E1D6F0A351A956835731FB1488F77CB1C46D04E9D237CD85BB1EBDACF2",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "registries/github_content/github.com/aquaproj/aqua-registry/v4.285.0/registry.yaml",
+      "checksum": "CEE1F2F39D3F062BF3E8F8E7296F4AB7D9F4D8B28BADEF483F85498802574EC3",
+      "algorithm": "sha256"
+    }
+  ]
+}
