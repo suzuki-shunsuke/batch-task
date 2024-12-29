@@ -11,7 +11,14 @@ if [ "$org" = suzuki-shunsuke ]; then
 	opt=-U
 fi
 
-multi-gitter merge \
-	-B renovate/suzuki-shunsuke-renovate-config-3.x \
-	--skip-forks \
-	"$opt" "$org"
+merge() {
+	local branch=$1
+	multi-gitter merge \
+		-B "$branch" \
+		--skip-forks \
+		"$opt" "$org"
+}
+
+# merge renovate/suzuki-shunsuke-renovate-config-3.x
+# merge renovate/suzuki-shunsuke-renovate-config-nolimit-3.x
+merge renovate/suzuki-shunsuke-renovate-config-action-go-version-3.x
