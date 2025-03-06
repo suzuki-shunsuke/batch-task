@@ -2,4 +2,6 @@
 
 set -eu
 
-cp workflow.yaml .github/workflows/create-status-check.yaml
+workflow="$(dirname $0)/workflow.yaml"
+
+cp "$workflow" .github/workflows/create-status-check.yaml
