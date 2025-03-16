@@ -1,0 +1,6 @@
+git-type: cmd
+branch: remove-wc-update-aqua-checksums
+skip-forks: true
+pr-title: "ci: remove wc-update-aqua-checksums.yaml"
+pr-body: |
+  - https://github.com/suzuki-shunsuke/batch-task/issues/6
