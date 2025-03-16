@@ -2,4 +2,4 @@
 
 set -eu
 
-cp workflow.yaml .github/workflows/actionlint.yaml
+cp "$WORKFLOW" .github/workflows/actionlint.yaml
