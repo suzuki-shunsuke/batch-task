@@ -25,6 +25,16 @@ bash list_repos.sh
 bash list_repos_txt.sh
 ```
 
+Then `owners/*.json` and `repos.txt` are created.
+
+- If you want to exclude some repositories, please add `#` to lines in `repos.txt`
+
+e.g.
+
+```
+# suzuki-shunsuke/tfcmt # Exclude suzuki-shunsuke/tfcmt
+```
+
 ## 3. Create Tag Rulesets
 
 ```sh
