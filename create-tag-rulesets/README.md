@@ -10,7 +10,8 @@
 bash list_owners.sh
 ```
 
-Add the authenticated user to `owners.txt` manually.
+Exclude some organizations if you want.
+And add the authenticated user to `owners.txt` manually.
 
 ## 2. List repositories
 
