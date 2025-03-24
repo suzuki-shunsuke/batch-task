@@ -1,0 +1,19 @@
+git-type: cmd
+branch: migrate-golangci-lint-to-v2-2
+skip-forks: true
+# org:
+#   - lintnet # Update with your organization
+#   - lintnet-modules
+#   - aquaproj
+# user:
+#   - suzuki-shunsuke
+# repo:
+#   - szksh-lab/test-1 # For test
+labels:
+  - migrate-golangci-lint-to-v2
+pr-title: "chore: Migrate golangci-lint to v2"
+pr-body: |
+  - https://github.com/suzuki-shunsuke/batch-task/issues/7
+code-search: filename:.golangci.yml org:lintnet org:lintnet-modules user:suzuki-shunsuke
+# code-search: filename:.golangci.yml org:lintnet org:lintnet-modules org:aquaproj user:suzuki-shunsuke
+# code-search: filename:.golangci.yml org:aquaproj
