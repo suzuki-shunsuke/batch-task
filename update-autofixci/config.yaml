@@ -1,0 +1,20 @@
+git-type: cmd
+branch: update-suzuki-shunsuke-autofixci-action
+skip-forks: true
+# org:
+#   - lintnet # Update with your organization
+#   - lintnet-modules
+#   - aquaproj
+# user:
+#   - suzuki-shunsuke
+# repo:
+#   - lintnet-modules/ghalint # For test
+labels:
+  - update-suzuki-shunsuke-autofixci-action
+pr-title: "ci: Update suzuki-shunsuke/go-autofix-action"
+pr-body: |
+  - https://github.com/suzuki-shunsuke/batch-task/issues/8
+code-search: suzuki-shunsuke/go-autofix-action@559f0cb21668a975222826fa376dbec951abc2f6 org:aquaproj org:lintnet-modulse org:lintnet user:suzuki-shunsuke
+# code-search: filename:.github/workflows/autofix.yaml user:suzuki-shunsuke
+# code-search: filename:.golangci.yml org:lintnet org:lintnet-modules org:aquaproj user:suzuki-shunsuke
+# code-search: filename:.golangci.yml org:aquaproj
