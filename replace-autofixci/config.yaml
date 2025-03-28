@@ -1,0 +1,20 @@
+git-type: cmd
+branch: replace-autofix-ci-action
+skip-forks: true
+# org:
+#   - lintnet # Update with your organization
+#   - lintnet-modules
+#   - aquaproj
+# user:
+#   - suzuki-shunsuke
+# repo:
+#   - lintnet-modules/ghalint # For test
+labels:
+  - replace-autofix-ci-action
+pr-title: "ci: Replace autofix-ci/action with suzuki-shunsuke/autofix-ci-action"
+pr-body: |
+  - https://github.com/suzuki-shunsuke/batch-task/issues/8
+code-search: filename:.github/workflows/autofix.yaml org:aquaproj org:lintnet-modulse org:lintnet user:suzuki-shunsuke
+# code-search: filename:.github/workflows/autofix.yaml user:suzuki-shunsuke
+# code-search: filename:.golangci.yml org:lintnet org:lintnet-modules org:aquaproj user:suzuki-shunsuke
+# code-search: filename:.golangci.yml org:aquaproj
