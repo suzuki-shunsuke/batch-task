@@ -1,0 +1,20 @@
+git-type: cmd
+branch: fix-goreleaser-format
+skip-forks: true
+# org:
+#   - lintnet # Update with your organization
+#   - lintnet-modules
+#   - aquaproj
+# user:
+#   - suzuki-shunsuke
+# repo:
+#   - lintnet/lintnet # For test
+labels:
+  - fix-goreleaser-format
+pr-title: "ci: Fix .goreleaser.yml's format"
+pr-body: |
+  - https://github.com/suzuki-shunsuke/batch-task/issues/9
+code-search: filename:.goreleaser.yml org:aquaproj org:lintnet-modulse org:lintnet user:suzuki-shunsuke
+# code-search: filename:.github/workflows/autofix.yaml user:suzuki-shunsuke
+# code-search: filename:.golangci.yml org:lintnet org:lintnet-modules org:aquaproj user:suzuki-shunsuke
+# code-search: filename:.golangci.yml org:aquaproj
