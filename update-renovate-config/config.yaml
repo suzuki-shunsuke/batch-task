@@ -1,0 +1,19 @@
+git-type: cmd
+branch: update-suzuki-shunsuke-renovate-config-320
+skip-forks: true
+# org:
+#   - lintnet # Update with your organization
+#   - lintnet-modules
+#   - aquaproj
+# user:
+#   - suzuki-shunsuke
+# repo:
+#   - szksh-lab/test-1 # For test
+labels:
+  - update-suzuki-shunsuke-renovate-config-320
+pr-title: "chore: Update suzuki-shunsuke/renovate-config to v3.2.0"
+pr-body: |
+  - https://github.com/suzuki-shunsuke/batch-task/issues/11
+code-search: filename:renovate.json5 org:lintnet
+# code-search: filename:.golangci.yml org:lintnet org:lintnet-modules org:aquaproj user:suzuki-shunsuke
+# code-search: filename:.golangci.yml org:aquaproj
