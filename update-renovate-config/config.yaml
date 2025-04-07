@@ -8,12 +8,12 @@ skip-forks: true
 # user:
 #   - suzuki-shunsuke
 # repo:
-#   - szksh-lab/test-1 # For test
+#   - suzuki-shunsuke/github-comment
 labels:
   - update-suzuki-shunsuke-renovate-config-320
 pr-title: "chore: Update suzuki-shunsuke/renovate-config to v3.2.0"
 pr-body: |
   - https://github.com/suzuki-shunsuke/batch-task/issues/11
-code-search: filename:renovate.json5 org:lintnet
-# code-search: filename:.golangci.yml org:lintnet org:lintnet-modules org:aquaproj user:suzuki-shunsuke
+# code-search: filename:renovate.json5 org:lintnet org
+code-search: filename:renovate.json org:securefix-action org:lintnet org:lintnet-modules org:aquaproj user:suzuki-shunsuke
 # code-search: filename:.golangci.yml org:aquaproj
