@@ -1,0 +1,18 @@
+git-type: cmd
+branch: replace-actionlint-workflow-with-actionlint-action
+skip-forks: true
+# org:
+#   - lintnet # Update with your organization
+#   - lintnet-modules
+#   - aquaproj
+# user:
+#   - suzuki-shunsuke
+# repo:
+#   - suzuki-shunsuke/github-comment
+labels:
+  - replace-actionlint-workflow-with-actionlint-action
+pr-title: "ci: Replace actionlint-workflow with actionlint-action"
+pr-body: |
+  - https://github.com/suzuki-shunsuke/batch-task/issues/12
+code-search: path:.github/workflows/actionlint.yaml org:lintnet
+# code-search: filename:.github/workflows/actionlint.yaml org:securefix-action org:lintnet org:lintnet-modules org:aquaproj user:suzuki-shunsuke
