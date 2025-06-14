@@ -14,5 +14,5 @@ labels:
 pr-title: "ci: Replace actionlint-workflow with actionlint-action"
 pr-body: |
   - https://github.com/suzuki-shunsuke/batch-task/issues/12
-code-search: path:.github/workflows/actionlint.yaml org:lintnet
-# code-search: filename:.github/workflows/actionlint.yaml org:securefix-action org:lintnet org:lintnet-modules org:aquaproj user:suzuki-shunsuke
+# code-search: "filename:.github/workflows/actionlint.yaml org:lintnet"
+code-search: filename:.github/workflows/actionlint.yaml org:csm-actions org:lintnet org:lintnet-modules org:aquaproj user:suzuki-shunsuke
