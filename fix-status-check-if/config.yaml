@@ -1,5 +1,5 @@
 git-type: cmd
-branch: replace-action-if-failure
+branch: fix-action-if-failure
 skip-forks: true
 # org:
 #   - lintnet # Update with your organization
@@ -10,7 +10,7 @@ skip-forks: true
 # repo:
 #   - lintnet-modules/ghalint # For test
 labels:
-  - replace-autofix-ci-action-2
+  - fix-action-if-failure
 pr-title: "ci: Fix if: failure() of GitHub Actions"
 pr-body: |
   - https://github.com/suzuki-shunsuke/batch-task/issues/14
