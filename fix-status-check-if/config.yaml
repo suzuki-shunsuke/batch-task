@@ -1,0 +1,18 @@
+git-type: cmd
+branch: replace-action-if-failure
+skip-forks: true
+# org:
+#   - lintnet # Update with your organization
+#   - lintnet-modules
+#   - aquaproj
+# user:
+#   - suzuki-shunsuke
+# repo:
+#   - lintnet-modules/ghalint # For test
+labels:
+  - replace-autofix-ci-action-2
+pr-title: "ci: Fix if: failure() of GitHub Actions"
+pr-body: |
+  - https://github.com/suzuki-shunsuke/batch-task/issues/14
+code-search: filename:.github/workflows/autofix.yaml org:lintnet-modules
+# code-search: filename:.github/workflows/autofix.yaml org:csm-actions org:aquaproj org:lintnet-modules org:lintnet user:suzuki-shunsuke
