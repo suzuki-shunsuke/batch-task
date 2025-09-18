@@ -1,0 +1,18 @@
+git-type: cmd
+branch: fix-homebrew-linux-postinstall
+skip-forks: true
+# org:
+#   - lintnet # Update with your organization
+#   - lintnet-modules
+#   - aquaproj
+# user:
+#   - suzuki-shunsuke
+# repo:
+#   - suzuki-shunsuke/github-comment
+labels:
+  - fix-homebrew-linux-postinstall
+pr-title: "chore: fix Homebrew cask postinstall script for Linux"
+pr-body: |
+  - https://github.com/suzuki-shunsuke/batch-task/issues/15
+code-search: filename:.goreleaser.yml user:suzuki-shunsuke
+# code-search: filename:.goreleaser.yml org:lintnet
