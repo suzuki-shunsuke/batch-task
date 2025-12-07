@@ -1,0 +1,17 @@
+git-type: cmd
+branch: renovate/aquaproj-aqua-installer-4.x
+skip-forks: true
+org:
+  - lintnet # Update with your organization
+  - lintnet-modules
+  - aquaproj
+  # - securefix-action
+  - csm-actions
+# user:
+#   - suzuki-shunsuke
+# repo:
+#   - suzuki-shunsuke/github-comment # For test
+pr-title: "chore(deps): update aquaproj/aqua-installer action to v4"
+# code-search: filename:.github/workflows/autofix.yaml user:suzuki-shunsuke
+# code-search: filename:.golangci.yml org:lintnet org:lintnet-modules org:aquaproj user:suzuki-shunsuke
+# code-search: filename:.golangci.yml org:aquaproj

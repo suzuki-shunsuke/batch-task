@@ -1,0 +1,17 @@
+git-type: cmd
+# branch: renovate/google-go-licenses-2.x
+branch: renovate/actions-setup-node-5.x
+skip-forks: true
+org:
+  # - aquaproj
+  - csm-actions
+#   - lintnet-modules
+# user:
+#   - suzuki-shunsuke
+# merge-type:
+#   - squash
+# repo:
+#   - lintnet-modules/ghalint # For test
+# code-search: org:csm-actions org:aquaproj org:lintnet-modules org:lintnet user:suzuki-shunsuke
+# code-search: org:lintnet
+# code-search: 'org:aquaproj "chore(deps): update actions/setup-go action to v6" in:title'

@@ -1,0 +1,10 @@
+git-type: cmd
+branch: renovate/actions-checkout-5.x
+skip-forks: true
+# org:
+#   # - lintnet
+#   - lintnet-modules
+#   - aquaproj
+#   - csm-actions
+user:
+  - suzuki-shunsuke
