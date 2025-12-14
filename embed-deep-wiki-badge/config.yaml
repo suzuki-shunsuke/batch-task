@@ -1,0 +1,11 @@
+git-type: cmd
+# pr-title: "docs: embed Deepwiki Badge"
+commit-message: "docs: embed Deepwiki Badge"
+branch: docs-embed-deep-wiki-badge-4
+labels:
+  - docs-embed-deep-wiki-badge
+pr-body: |
+  - https://github.com/suzuki-shunsuke/batch-task/issues/16
+topic:
+  - oss
+fetch-depth: 1
