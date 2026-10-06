@@ -1,0 +1,14 @@
+git-type: cmd
+pr-title: "ci: update GitHub Actions runner to ubuntu-26.04"
+pr-auto-merge: true
+merge-type:
+  - squash
+commit-message: "ci: update GitHub Actions runner to ubuntu-26.04"
+branch: update-ubuntu-2604-runs-on
+labels:
+  - update-ubuntu-2604-runs-on
+pr-body: |
+  - https://github.com/suzuki-shunsuke/batch-task/issues/18
+topic:
+  - oss
+fetch-depth: 1
