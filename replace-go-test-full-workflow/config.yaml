@@ -1,0 +1,68 @@
+git-type: cmd
+pr-title: "ci: replace go-test-full-workflow with go-test-workflow and test-workflow"
+# Don't enable auto-merge. Pull requests are merged manually after review.
+pr-auto-merge: false
+merge-type:
+  - squash
+commit-message: "ci: replace go-test-full-workflow with go-test-workflow and test-workflow"
+branch: replace-go-test-full-workflow
+labels:
+  - replace-go-test-full-workflow
+pr-body: |
+  - https://github.com/suzuki-shunsuke/batch-task/issues/22
+skip-forks: true
+fetch-depth: 1
+repo:
+  # Pilot (done)
+  # - suzuki-shunsuke/go-stdutil
+  # Full rollout
+  - suzuki-shunsuke/asciinema-trim
+  - suzuki-shunsuke/ci-info
+  - suzuki-shunsuke/cmdx
+  - suzuki-shunsuke/cobra-util
+  - suzuki-shunsuke/disable-checkout-persist-credentials
+  - suzuki-shunsuke/docfresh
+  - suzuki-shunsuke/flute
+  - suzuki-shunsuke/ghalint
+  - suzuki-shunsuke/ghaperf
+  - suzuki-shunsuke/ghatm
+  - suzuki-shunsuke/ghcp
+  - suzuki-shunsuke/ghir
+  - suzuki-shunsuke/ghomfc
+  - suzuki-shunsuke/ghproj
+  - suzuki-shunsuke/ghtkn
+  - suzuki-shunsuke/ghtkn-go-sdk
+  - suzuki-shunsuke/ghwhapp
+  - suzuki-shunsuke/github-comment
+  - suzuki-shunsuke/github-comment-metadata
+  - suzuki-shunsuke/go-ci-env
+  - suzuki-shunsuke/go-convmap
+  - suzuki-shunsuke/go-dataeq
+  - suzuki-shunsuke/go-error-with-exit-code
+  - suzuki-shunsuke/go-findconfig
+  - suzuki-shunsuke/go-github-device-flow
+  - suzuki-shunsuke/go-parse-gh-generate-release-note
+  - suzuki-shunsuke/go-pr-diff
+  - suzuki-shunsuke/go-revoke-github-access-token
+  - suzuki-shunsuke/go-yamledit
+  - suzuki-shunsuke/langcheck
+  - suzuki-shunsuke/mkghtag
+  - suzuki-shunsuke/nllint
+  - suzuki-shunsuke/pinact
+  - suzuki-shunsuke/rgo
+  - suzuki-shunsuke/slog-error
+  - suzuki-shunsuke/slog-util
+  - suzuki-shunsuke/sort-issue-template
+  - suzuki-shunsuke/tfcmt
+  - suzuki-shunsuke/tfmv
+  - suzuki-shunsuke/tfprovidercheck
+  - suzuki-shunsuke/tfrstate
+  - suzuki-shunsuke/urfave-cli-v3-util
+  - suzuki-shunsuke/validate-pr-review-app
+  - suzuki-shunsuke/yamledit
+  - aquaproj/aqua
+  - aquaproj/aqua-proxy
+  - aquaproj/aqua-registry-updater
+  - aquaproj/ar2
+  - aquaproj/registry-tool
+  - lintnet/lintnet
