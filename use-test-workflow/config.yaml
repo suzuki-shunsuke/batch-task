@@ -1,0 +1,42 @@
+git-type: cmd
+pr-title: "ci: use suzuki-shunsuke/test-workflow"
+# Don't enable auto-merge. Pull requests are merged manually after review.
+pr-auto-merge: false
+merge-type:
+  - squash
+commit-message: "ci: use suzuki-shunsuke/test-workflow"
+branch: use-test-workflow
+labels:
+  - use-test-workflow
+pr-body: |
+  - https://github.com/suzuki-shunsuke/batch-task/issues/19
+skip-forks: true
+fetch-depth: 1
+repo:
+  # Pilot (done)
+  # - suzuki-shunsuke/pinact-action
+  # - suzuki-shunsuke/tfrstate
+  # - suzuki-shunsuke/renovate-config
+  # - suzuki-shunsuke/github-action-golangci-lint
+  # Full rollout
+  - suzuki-shunsuke/commit-action
+  - suzuki-shunsuke/lock-action
+  - suzuki-shunsuke/terraform-monorepo-github-actions
+  - suzuki-shunsuke/nllint-action
+  - suzuki-shunsuke/ghproj
+  # oss-contribution-guide has inline ghalint and typos jobs, so fix it manually.
+  # - suzuki-shunsuke/oss-contribution-guide
+  - suzuki-shunsuke/disable-checkout-persist-credentials
+  - suzuki-shunsuke/mkghtag
+  - suzuki-shunsuke/get-pr-action
+  - suzuki-shunsuke/sort-issue-template
+  - suzuki-shunsuke/update-pr-branch-action
+  - suzuki-shunsuke/pr-unified-diff-action
+  - suzuki-shunsuke/notify-bot-pr-event-action
+  - suzuki-shunsuke/go-ci-env
+  - suzuki-shunsuke/ci-info-action
+  - suzuki-shunsuke/profile
+  - suzuki-shunsuke/release-js-action
+  - suzuki-shunsuke/monitor-gh-follower-action
+  - suzuki-shunsuke/create-github-app-token-aws-kms
+  - suzuki-shunsuke/aws-secrets-manager-get-action
