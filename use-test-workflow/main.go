@@ -1,5 +1,5 @@
-// use-test-workflow replaces wc-renovate-config-validator.yaml, wc-ghalint.yaml, and typos.yaml
-// with suzuki-shunsuke/test-workflow.
+// use-test-workflow replaces wc-renovate-config-validator.yaml, wc-ghalint.yaml, typos.yaml,
+// workflow_call_renovate-config-validator.yaml, and workflow_call_ghalint.yaml with suzuki-shunsuke/test-workflow.
 // It must be run at the root directory of a repository.
 // https://github.com/suzuki-shunsuke/batch-task/issues/19
 package main
@@ -32,16 +32,19 @@ permissions:
 
 // Reusable workflows replaced by test-workflow and paths-filter keys used for them.
 var targets = map[string]string{
-	"wc-renovate-config-validator.yaml": "renovate-config-validator",
-	"renovate-config-validator.yaml":    "renovate-config-validator",
-	"wc-ghalint.yaml":                   "ghalint",
-	"typos.yaml":                        "typos",
+	"wc-renovate-config-validator.yaml":            "renovate-config-validator",
+	"renovate-config-validator.yaml":               "renovate-config-validator",
+	"wc-ghalint.yaml":                              "ghalint",
+	"typos.yaml":                                   "typos",
+	"workflow_call_renovate-config-validator.yaml": "renovate-config-validator",
+	"workflow_call_ghalint.yaml":                   "ghalint",
 }
 
 // aqua packages that are no longer needed if the reusable workflow is removed.
 var aquaPackages = map[string]string{
-	"wc-ghalint.yaml": "ghalint",
-	"typos.yaml":      "typos",
+	"wc-ghalint.yaml":            "ghalint",
+	"typos.yaml":                 "typos",
+	"workflow_call_ghalint.yaml": "ghalint",
 }
 
 type Workflow struct {
