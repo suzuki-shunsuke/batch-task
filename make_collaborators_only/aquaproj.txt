@@ -1,0 +1,12 @@
+aquaproj/aqua
+# aquaproj/aqua-registry
+aquaproj/aqua-installer
+aquaproj/aqua-renovate-config
+aquaproj/devcontainer-features
+aquaproj/registry-tool
+aquaproj/update-checksum-action
+aquaproj/aqua-registry-updater
+aquaproj/circleci-orb-aqua
+aquaproj/aqua-proxy
+aquaproj/registry-action
+aquaproj/update-checksum-workflow
