@@ -1,0 +1,7 @@
+lintnet-modules/ghalint
+lintnet-modules/terraform-aws
+lintnet-modules/terraform
+lintnet-modules/github-actions
+lintnet-modules/k8s
+lintnet-modules/nllint
+lintnet-modules/terraform-google
